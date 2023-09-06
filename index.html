@@ -1,0 +1,822 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIT MART | E-Commerce Store</title>
+    <link rel="icon" href="images\logo.png"type="image/x-icon">
+    <script src="https://kit.fontawesome.com/1024979679.js" crossorigin="anonymous"></script>
+    <script src="cart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link href="style.css"rel="stylesheet">
+
+</head>
+<body>
+    <header>
+       
+        <div class="header-left">
+            <a href="#">Fit Mart</a>
+            <div class="header-left"></div>
+            <p>
+                <a href="#">Explore</a><span><b><i>Plus<i class="fa-solid fa-plus"></i></i></b></span> </p>
+            
+            
+        </div>
+        <div class="header-centre">
+           <input class="header-centre-input" type="text" placeholder="search for product"> <i class="fa-sharp fa-solid fa-magnifying-glass"></i> 
+
+        </div>
+
+        <div class="login">
+            <a href="/login-fitmart.html"class="login-btn">login</a>
+            <div class="login_dropdown none">
+                <ul class="login_dropdown_list">
+                    <li class="login_drop_li sign_Li flex">
+                        <p class="new_login">New customer?</p>
+                        <a href="/signup-fitmart.html" class="sign_up">sign_up</a>
+
+                    </li>
+                    <li class="login_drop_li"><i class="fa-solid fa-circle-user"></i>My Profile</li>
+                    <li class="login_drop_li"><i class="fa-solid fa-square-plus"></i>FIT Mart plus zone</li>
+                    <li class="login_drop_li"><i class="fa-solid fa-bag-shopping"></i>Order</li>
+                    <li class="login_drop_li"><i class="fa-solid fa-heart"></i>Wishlist</li>
+                    <li class="login_drop_li"><i class="fa-solid fa-money-bill-1"></i>Rewards</li>
+                    <li class="login_drop_li"><i class="fa-solid fa-gift"></i>Gift cards</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div class="more">
+            <span class="more_lan">More<i class="fa-solid fa-angle-down"></i></span>
+            <div class="more_dropdown none">
+                <div class="pointer more-pointer"></div>
+                <ul class="more_dropdown_list">
+                    <li class="login_drop_li"><i class="more-icon fa fa-bell"></i> Notifications preferences</li>
+                    <li class="login_drop_li"><i class="more-icon fa fa-shopping-basket"></i> sell on fitmart</li>
+                    <li class="login_drop_li"><i class="more-icon fa fa-question"></i> 24x7 customer care</li>
+                    <li class="login_drop_li"><i class="more-icon fa fa-line-chart"></i> Advertise</li>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+        <span class="cart_lan"><a href="signup-fitmart.html"><i class="fa-solid fa-cart-shopping" id="cart-icon"></i></a>Cart</span>
+        <div class="cart">
+            <h2 class="cart-title">Your Cart</h2>
+            <div class="cart-content">
+                <img src="\images\d1.jpg" class="cart-img">
+                <div class="detail-box">
+                  <div class="cart-product-title">Product1</div>  
+                  <div class="cart-price">700</div>
+                  <input type="number" value="1" class="cart-quantity">
+                </div>
+                <i class="fa-solid fa-trash cart-remove"></i>
+            </div>
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price"></div>
+            </div>
+            <button type="button" class="btn-buy">Buy Now</button>
+            <i class="fa-solid fa-rectangle-xmark" id="close-cart"></i>
+        </div>
+        
+    
+
+        
+    </header>
+    <section>
+        <div class="category-row">
+            <div class="category-col">
+                <img src="\images\Top offer col 1.png" alt="">
+             <div class="dropdown">
+                <h5 class="dropbtn">Top Offer</h5>
+                
+                <div class="dropdown-content">
+                    <div class="header"></div>
+                    <div class="row">
+                        <div class="col">
+                            <h3 class="product-title">Watch</h3>
+                            <a href="#">Smart Watch</a>
+                            <a href="#">Bands</a>
+                            <a href="#">Analog</a>
+                        </div>
+                        <div class="col">
+                            <h3 class="product-title">Accessories</h3>
+                            <a href="#">Dumbell</a>
+                            <a href="#">Bottle</a>
+                            <a href="#">Resistance Band</a>
+                        </div>
+                        <div class="col">
+                            <h3 class="product-title">Offer Zone</h3>
+                            <a href="#">Ankle Support</a>
+                            <a href="#">Knee Support</a>
+                            <a href="#">Elbow Support</a>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="category-col">
+                <img src="\images\tshirt col2.png" alt="">
+                <div class="dropdown">
+                    <h5 class="dropbtn">Shirts</h5>
+
+                    <div class="dropdown-content">
+                        <div class="header"></div>
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="product-title">Watch</h3>
+                                <a href="#">Smart Watch</a>
+                                <a href="#">Bands</a>
+                                <a href="#">Analog</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Accessories</h3>
+                                <a href="#">Dumbell</a>
+                                <a href="#">Bottle</a>
+                                <a href="#">Resistance Band</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Offer Zone</h3>
+                                <a href="#">Ankle Support</a>
+                                <a href="#">Knee Support</a>
+                                <a href="#">Elbow Support</a>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="category-col">
+                <img src="\images\watch col3.png" alt="">
+                <div class="dropdown">
+                    <h5 class="dropbtn">Watches</h5>
+
+                    <div class="dropdown-content">
+                        <div class="header"></div>
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="product-title">Watch</h3>
+                                <a href="#">Smart Watch</a>
+                                <a href="#">Bands</a>
+                                <a href="#">Analog</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Accessories</h3>
+                                <a href="#">Dumbell</a>
+                                <a href="#">Bottle</a>
+                                <a href="#">Resistance Band</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Offer Zone</h3>
+                                <a href="#">Ankle Support</a>
+                                <a href="#">Knee Support</a>
+                                <a href="#">Elbow Support</a>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+             </div>
+            <div class="category-col">
+                <img src="\images\tank-top col 4.png" alt="">
+                <div class="dropdown">
+                    <h5 class="dropbtn">Tank Top</h5>
+
+                    <div class="dropdown-content">
+                        <div class="header"></div>
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="product-title">Watch</h3>
+                                <a href="#">Smart Watch</a>
+                                <a href="#">Bands</a>
+                                <a href="#">Analog</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Accessories</h3>
+                                <a href="#">Dumbell</a>
+                                <a href="#">Bottle</a>
+                                <a href="#">Resistance Band</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Offer Zone</h3>
+                                <a href="#">Ankle Support</a>
+                                <a href="#">Knee Support</a>
+                                <a href="#">Elbow Support</a>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="category-col">
+                <img src="\images\trousers col 5.png" alt="">
+                <div class="dropdown">
+                    <h5 class="dropbtn">Trousers</h5>
+
+                    <div class="dropdown-content">
+                        <div class="header"></div>
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="product-title">Watch</h3>
+                                <a href="#">Smart Watch</a>
+                                <a href="#">Bands</a>
+                                <a href="#">Analog</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Accessories</h3>
+                                <a href="#">Dumbell</a>
+                                <a href="#">Bottle</a>
+                                <a href="#">Resistance Band</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Offer Zone</h3>
+                                <a href="#">Ankle Support</a>
+                                <a href="#">Knee Support</a>
+                                <a href="#">Elbow Support</a>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="category-col">
+                <img src="\images\sweater col 6.png" alt="">
+                <div class="dropdown">
+                    <h5 class="dropbtn">Sweat Shirts</h5>
+
+                    <div class="dropdown-content">
+                        <div class="header"></div>
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="product-title">Watch</h3>
+                                <a href="#">Smart Watch</a>
+                                <a href="#">Bands</a>
+                                <a href="#">Analog</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Accessories</h3>
+                                <a href="#">Dumbell</a>
+                                <a href="#">Bottle</a>
+                                <a href="#">Resistance Band</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Offer Zone</h3>
+                                <a href="#">Ankle Support</a>
+                                <a href="#">Knee Support</a>
+                                <a href="#">Elbow Support</a>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="category-col">
+                <img src="\images\hoodie col 7.png" alt="">
+                <div class="dropdown">
+                    <h5 class="dropbtn">Hoodies</h5>
+
+                    <div class="dropdown-content">
+                        <div class="header"></div>
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="product-title">Watch</h3>
+                                <a href="#">Smart Watch</a>
+                                <a href="#">Bands</a>
+                                <a href="#">Analog</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Accessories</h3>
+                                <a href="#">Dumbell</a>
+                                <a href="#">Bottle</a>
+                                <a href="#">Resistance Band</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Offer Zone</h3>
+                                <a href="#">Ankle Support</a>
+                                <a href="#">Knee Support</a>
+                                <a href="#">Elbow Support</a>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="category-col">
+                <img src="\images\shoes col 8.png" alt="">
+                <div class="dropdown">
+                    <h5 class="dropbtn">Shoes</h5>
+
+                    <div class="dropdown-content">
+                        <div class="header"></div>
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="product-title">Watch</h3>
+                                <a href="#">Smart Watch</a>
+                                <a href="#">Bands</a>
+                                <a href="#">Analog</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Accessories</h3>
+                                <a href="#">Dumbell</a>
+                                <a href="#">Bottle</a>
+                                <a href="#">Resistance Band</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Offer Zone</h3>
+                                <a href="#">Ankle Support</a>
+                                <a href="#">Knee Support</a>
+                                <a href="#">Elbow Support</a>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="category-col">
+                <img src="\images\sock col 9.png" alt="">
+                <div class="dropdown">
+                    <h5 class="dropbtn">Socks</h5>
+
+                    <div class="dropdown-content">
+                        <div class="header"></div>
+                        <div class="row">
+                            <div class="col">
+                                <h3 class="product-title">Watch</h3>
+                                <a href="#">Smart Watch</a>
+                                <a href="#">Bands</a>
+                                <a href="#">Analog</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Accessories</h3>
+                                <a href="#">Dumbell</a>
+                                <a href="#">Bottle</a>
+                                <a href="#">Resistance Band</a>
+                            </div>
+                            <div class="col">
+                                <h3 class="product-title">Offer Zone</h3>
+                                <a href="#">Ankle Support</a>
+                                <a href="#">Knee Support</a>
+                                <a href="#">Elbow Support</a>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </section>
+    <section>
+        <div class="banner">
+            <div class="slider">
+            <img src="\images\banner 4.jpg" alt="banner"> 
+            <img src="\images\banner 4.jpg" alt="banner">
+            <img src="\images\banner 4.jpg" alt="banner">
+            <img src="\images\banner 4.jpg" alt="banner">
+            <img src="\images\banner 4.jpg" alt="banner">
+            <img src="\images\banner 4.jpg" alt="banner">
+            <img src="\images\banner 4.jpg" alt="banner">
+            <img src="\images\banner 4.jpg" alt="banner">
+            <img src="\images\banner 4.jpg" alt="banner">
+            <img src="\images\banner 4.jpg" alt="banner">  
+            </div>
+            <marquee behavior="scroll" direction="right" scrollamount="20">Made by Muhammad Haris Bin Atteeq,Arslan Atif and Saba Gul.</marquee>
+        </div>
+    </section>
+    <section>
+        <div class="card">
+            <div class="common-heading">
+                <div class="common-heading-left">
+                    <h1>Deals Of The Day</h1><i class="fa-solid fa-timer"></i>
+                </div>
+                <div class="common-heading-right">
+                    <button>view all</button>
+                </div>
+            </div>
+            <div class="common-row col-deals">
+                <div class="common-col">
+                    <img src="\images\d1.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Shirt</h3>
+                    <h4>Upto 80% off</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>699</h6>
+                    <a href="signup-fitmart.html"> <i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\d2.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Watches</h3>
+                    <h4>Upto 10% off</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>2999</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\d3.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Tank Top</h3>
+                    <h4>Upto 1% off</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>499</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\d4.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Trouser</h3>
+                    <h4>Upto 80% off</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>999</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\d5.jpg" alt="" class="product-img">
+                    <h3 class="product-title">SweatShirt</h3>
+                    <h4>Upto 30% off</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>1499</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\d6.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Hoodie</h3>
+                    <h4>Upto 0% off</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>1999</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\d7.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Shoes</h3>
+                    <h4>Upto 50% off</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>2000</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\d8.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Socks</h3>
+                    <h4>Upto 80% off</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>99</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="card">
+            <div class="common-heading">
+                <div class="common-heading-left">
+                    <h1>Shirts</h1><i class="fa-solid fa-timer"></i>
+                </div>
+                <div class="common-heading-right">
+                    <button>view all</button>
+                </div>
+            </div>
+            <div class="common-row col-deals">
+                <div class="common-col">
+                    <img src="\images\s1.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Puma Shirt</h3>
+                    <h4>Stuff:Cotton</h4>
+                    <h6 class="price">Starts From <i class="fa-solid fa-rupee-sign"></i>699</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\s2.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Polo Shirt</h3>
+                    <h4>Stuff:Cotton</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>999</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\s3.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Polo Half Sleeve</h3>
+                    <h4>Stuff:Cotton</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>799</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\s4.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Seamless Compression Long Sleeve</h3>
+                    <h4>Stuff:Cotton</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>1299</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\s5.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Half Sleeve Shirt</h3>
+                    <h4>Stuff:Cotton</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>499</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\s6.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Slim Fit Full Sleeve</h3>
+                    <h4>Stuff:Cotton</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>999</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\s7.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Trex Half Sleeve</h3>
+                    <h4>Stuff:Cotton</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>1500</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\s8.jpg" alt="" class="product-img">
+                    <h3 class="product-title"> Plain Tight Men's Gym & Workout Cotton T Shirt</h3>
+                    <h4>Stuff:Cotton</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>899</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="card">
+            <div class="common-heading">
+                <div class="common-heading-left">
+                    <h1>Gym Garments</h1><i class="fa-solid fa-timer"></i>
+                </div>
+                <div class="common-heading-right">
+                    <button>view all</button>
+                </div>
+            </div>
+            <div class="common-row col-deals">
+                <div class="common-col">
+                    <img src="\images\g1.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Puma Shirt</h3>
+                    <h4>Stuff:Cotton</h4>
+                    <h6 class="price">Starts From <i class="fa-solid fa-rupee-sign"></i>699</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\g2.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Shoes</h3>
+                    <h4>Joggers</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>2999</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\g3.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Trouser</h3>
+                    <h4>Stuff:Fleece</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>1599</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\g4.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Hoodie</h3>
+                    <h4>Stuff:Fleece</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>1299</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\g5.png" alt="" class="product-img">
+                    <h3 class="product-title">Watch</h3>
+                    <h4>MI Band</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>24999</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\g6.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Black Hoodie</h3>
+                    <h4>Premium Fleece hoodie</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>1999</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\g7.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Sneaker</h3>
+                    <h4>White Sneakers</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>2500</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\g8.jpg" alt="" class="product-img">
+                    <h3 class="product-title"> Socks</h3>
+                    <h4></h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>199</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="card">
+            <div class="common-heading">
+                <div class="common-heading-left">
+                    <h1>Low Price</h1><i class="fa-solid fa-timer"></i>
+                    <h6>Under 1000</h6>
+                </div>
+                <div class="common-heading-right">
+                    <button>view all</button>
+                </div>
+            </div>
+            <div class="common-row col-deals">
+                <div class="common-col">
+                    <img src="\images\d1.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Shirt</h3>
+                    <h4>Upto 80% off</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>699</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\g2.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Puma Shirt</h3>
+                    <h4>Stuff:Cotton</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>699</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\d3.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Tank Top</h3>
+                    <h4>Upto 1% off</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>499</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\d4.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Trouser</h3>
+                    <h4>Upto 80% off</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>999</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\s3.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Polo Half Sleeve</h3>
+                    <h4>Stuff:Cotton</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>799</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\s6.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Slim Fit Full Sleeve</h3>
+                    <h4>Stuff:Cotton</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>999</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\d8.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Socks</h3>
+                    <h4>Upto 80% off</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>99</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\g8.jpg" alt="" class="product-img">
+                    <h3 class="product-title"> Socks</h3>
+                    <h4></h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>199</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="card">
+            <div class="common-heading">
+                <div class="common-heading-left">
+                    <h1>Comming Soon</h1><i class="fa-solid fa-timer"></i>
+                    <h6></h6>
+                </div>
+                <div class="common-heading-right">
+                    <button>view all</button>
+                </div>
+            </div>
+            <div class="common-row col-deals">
+                <div class="common-col">
+                    <img src="\images\product-5.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Jordans</h3>
+                    <h4>Comming Soon</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>3999</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\product-8.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Black Stylish Watch</h3>
+                    <h4>Comming Soon</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>2499</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\product-9.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Roadster watch</h3>
+                    <h4>Comming Soon</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>1999</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\product-10.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Puma shoes</h3>
+                    <h4>Comming Soon</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>1999</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\product-11.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Joggers</h3>
+                    <h4>Comming Soon</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>799</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\product-12.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Nike Trouser</h3>
+                    <h4>Comming Soon</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>2999</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <img src="\images\product-13.jpg" alt="" class="product-img">
+                    <h3 class="product-title">Golf Socks</h3>
+                    <h4>Comming Soon</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>199</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+                <div class="common-col">
+                    <a href="#">  <img src="\images\product-14.jpg" alt="" class="product-img"></a>
+                    <h3 class="product-title">Gym Socks</h3>
+                    <h4>Comming Soon</h4>
+                    <h6 class="price">Starts From  <i class="fa-solid fa-rupee-sign"></i>399</h6>
+                    <a href="signup-fitmart.html"><i class="fa-solid fa-bag-shopping" id="add-cart"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-row">
+            <div class="footer-col-1">
+                <div class="footer-heading">
+                    <p>ABOUT</p>
+                </div>
+                <div class="footer-list">
+                    <a href="#">Contact Us</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Careers</a>
+                    <a href="#">FitMart Stories</a>
+                    <a href="#">Press</a>
+                    <a href="#">Fit Mart Wholesale</a>
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <div class="footer-heading">
+                    <p>HELP</p>
+                </div>
+                <div class="footer-list">
+                    <a href="#">Payment</a>
+                    <a href="#">Shipping</a>
+                    <a href="#">Cancelations And Returns</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Press</a>
+                    <a href="#">Report Infrigment</a>
+                </div>
+            </div>
+         <div class="footer-col-3">
+            <div class="footer-heading">
+                <p>POLICY</p>
+            </div>
+            <div class="footer-list">
+                <a href="#">Return Policy</a>
+                <a href="#">Terms</a>
+                <a href="#">Security</a>
+                <a href="#">Privacy</a>
+                <a href="#">Sitmap</a>
+            </div>
+        </div>
+        <div class="footer-col-4">
+            <div class="footer-heading">
+                <p>Social</p>
+            </div>
+            <div class="footer-list">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Youtube</a>
+            </div>
+        </div>
+        <div class="footer-col-5">
+            <div class="footer-heading">
+                <p>MAIL US</p>
+            </div>
+            <div class="footer-list">
+            <p>A   B   C</p>
+            </div>
+        </div>
+        </div>
+        <div class="footer-row2">
+            <div class="footer-row2-col">
+                <p><i class="fas fa-shopping-bag"></i>Sell On Fitmart</p>
+            </div>
+            <div class="footer-row2-col">
+                <p><i class="fas fa-star"></i>Advertise</p>
+            </div>
+            <div class="footer-row2-col">
+                <p><i class="fas fa-gift"></i>Gift Cards</p>
+            </div>
+            <div class="footer-row2-col">
+                <p><i class="fas fa-question-circle"></i>Help Center</p>
+            </div>
+            <div class="footer-row2-col">
+                <p>©️ 2022 Fitmart.com<br>Made By Haris ,Arslan and Saba.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
